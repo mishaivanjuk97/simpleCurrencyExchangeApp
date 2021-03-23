@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+   <link rel="stylesheet" href="style.css">
+   <title>currencyExchange</title>
+</head>
+<body>
+   <div class="container">
+      <div class="header">
+         <i class="fas fa-coins fa-4x"></i>
+         <h1>Currency Exchange</h1>
+      </div>
+      <div class="showtime">
+         <div class="inputs">
+            <select id="firstSelect"></select>
+            <button id="swapBtn" class="btn"><i class="fas fa-exchange-alt"></i></button>
+            <select id="secondSelect"></select>
+         </div>
+         <div class="results">
+            <input type="number" id="amount" placeholder="Amount...">
+            <p id="currencyCourse"></p>
+            <input type="number" id="result" placeholder="Result..." disabled>
+         </div>
+      </div>
+   </div>
+   
+   <script src="script.js"></script>
+</body>
+</html>
